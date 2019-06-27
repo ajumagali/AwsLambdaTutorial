@@ -1,57 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zuhlke.lambda.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.zuhlke.lambda.AppTest" time="0.002" errors="0" skipped="0">
   <properties>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="12"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/test-classes:/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/classes:/Users/ajum/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ajum/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ajum/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="12"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="GB"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/surefire/surefirebooter5441422029233229808.jar /Users/ajum/IdeaProjects/AwsLambdaTutorial/target/surefire 2019-06-27T10-56-40_673-jvmRun1 surefire1154905899690882247tmp surefire_011165687005678959273tmp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/ky/51sfr83n1ml2v3t0pbdlwk480000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ajum/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/test-classes:/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/classes:/Users/ajum/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ajum/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ajum/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
     <property name="user.home" value="/Users/ajum"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="ajum"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.3 package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-04-16"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial/target/surefire/surefirebooter5441422029233229808.jar"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="12.0.1+12"/>
-    <property name="user.name" value="ajum"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.12.6"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/Users/ajum/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/ky/51sfr83n1ml2v3t0pbdlwk480000gn/T/"/>
-    <property name="java.version" value="12.0.1"/>
-    <property name="user.dir" value="/Users/ajum/IdeaProjects/AwsLambdaTutorial"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="idea.version2019.1.3" value="true"/>
-    <property name="java.library.path" value="/Users/ajum/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="java.class.version" value="56.0"/>
+    <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.zuhlke.lambda.AppTest" time="0.001"/>
+  <testcase classname="com.zuhlke.lambda.AppTest" name="shouldAnswerWithTrue" time="0.002"/>
 </testsuite>

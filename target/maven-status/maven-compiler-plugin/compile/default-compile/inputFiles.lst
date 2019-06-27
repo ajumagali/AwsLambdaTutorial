@@ -1,3 +1,7 @@
-/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/App.java
-/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/Hello.java
-/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/HelloPojo.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/ContextLogger.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/HelloPojo.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/Hello.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/models/Greeting.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/blob/UploadObject.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/HelloStream.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/models/Person.java

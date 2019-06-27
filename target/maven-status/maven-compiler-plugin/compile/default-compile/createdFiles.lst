@@ -1,4 +1,7 @@
-com/zuhlke/lambda/models/RequestClass.class
-com/zuhlke/lambda/models/ResponseClass.class
+com/zuhlke/lambda/handlers/ContextLogger.class
 com/zuhlke/lambda/handlers/Hello.class
 com/zuhlke/lambda/handlers/HelloPojo.class
+com/zuhlke/lambda/blob/UploadObject.class
+com/zuhlke/lambda/handlers/HelloStream.class
+com/zuhlke/lambda/models/Person.class
+com/zuhlke/lambda/models/Greeting.class
