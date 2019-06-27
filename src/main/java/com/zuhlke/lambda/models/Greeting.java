@@ -1,13 +1,13 @@
 package com.zuhlke.lambda.models;
 
-public class ResponseClass {
+public class Greeting {
     private String greetings;
 
-    public ResponseClass(String greetings) {
+    public Greeting(String greetings) {
         this.greetings = greetings;
     }
 
-    public ResponseClass() {
+    public Greeting() {
 
     }
 
