@@ -1,4 +1,4 @@
-package com.zuhlke.lambda.blob;
+package com.zuhlke.lambda.storage;
 
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.SdkClientException;
