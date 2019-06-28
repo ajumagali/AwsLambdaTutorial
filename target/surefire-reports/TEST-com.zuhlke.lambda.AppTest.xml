@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.zuhlke.lambda.AppTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.zuhlke.lambda.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -39,7 +39,7 @@
     <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.3 package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.3 clean compile assembly:single package"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -55,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.zuhlke.lambda.AppTest" name="shouldAnswerWithTrue" time="0.002"/>
+  <testcase classname="com.zuhlke.lambda.AppTest" name="shouldAnswerWithTrue" time="0.004"/>
 </testsuite>

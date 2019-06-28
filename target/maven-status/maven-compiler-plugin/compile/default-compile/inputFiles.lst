@@ -2,6 +2,10 @@
 /Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/HelloPojo.java
 /Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/Hello.java
 /Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/models/Greeting.java
-/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/blob/UploadObject.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/storage/AwsDynamoDbImpl.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/models/PersonItem.java
 /Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/HelloStream.java
 /Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/models/Person.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/DynamoDbExample.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/handlers/S3Example.java
+/Users/ajum/IdeaProjects/AwsLambdaTutorial/src/main/java/com/zuhlke/lambda/storage/AwsS3Impl.java

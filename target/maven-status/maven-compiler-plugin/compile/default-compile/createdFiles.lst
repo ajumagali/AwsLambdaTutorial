@@ -1,7 +1,11 @@
+com/zuhlke/lambda/storage/AwsDynamoDbImpl.class
 com/zuhlke/lambda/handlers/ContextLogger.class
+com/zuhlke/lambda/handlers/S3Example.class
+com/zuhlke/lambda/handlers/DynamoDbExample.class
 com/zuhlke/lambda/handlers/Hello.class
 com/zuhlke/lambda/handlers/HelloPojo.class
-com/zuhlke/lambda/blob/UploadObject.class
+com/zuhlke/lambda/storage/AwsS3Impl.class
+com/zuhlke/lambda/models/PersonItem.class
 com/zuhlke/lambda/handlers/HelloStream.class
 com/zuhlke/lambda/models/Person.class
 com/zuhlke/lambda/models/Greeting.class

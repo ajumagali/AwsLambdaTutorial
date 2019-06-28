@@ -1,20 +1,14 @@
 package com.zuhlke.lambda.handlers;
 
-import com.amazonaws.SdkClientException;
-import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
-import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.AmazonS3ClientBuilder;
-import com.amazonaws.services.s3.model.CreateBucketRequest;
-import com.amazonaws.services.s3.model.GetBucketLocationRequest;
-import com.zuhlke.lambda.blob.UploadObject;
+import com.zuhlke.lambda.storage.AwsS3Impl;
 
 import java.util.Map;
 import java.util.Random;
 
 public class Hello {
-    private UploadObject s3 = new UploadObject();
+    private AwsS3Impl s3 = new AwsS3Impl();
     private final String BUCKET_NAME = "aws-lambda-test";
     private Random random = new Random();
 
