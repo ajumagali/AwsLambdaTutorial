@@ -2,15 +2,17 @@ package com.zuhlke.lambda.blob;
 
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.SdkClientException;
-import com.amazonaws.auth.profile.ProfileCredentialsProvider;
-import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.CreateBucketRequest;
 import com.amazonaws.services.s3.model.GetBucketLocationRequest;
+import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Random;
 
 public class AwsS3Impl {
@@ -52,6 +54,30 @@ public class AwsS3Impl {
             objectKeyName = "output-" + funcName + "-" + random.nextInt(100);
             s3Client.putObject(BUCKET_NAME, objectKeyName, str);
         } catch (AmazonServiceException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void uploadTextFile(String input, String funcName) {
+
+        try {
+            ObjectMetadata meta = null;
+            InputStream inputStream = null;
+            objectKeyName = String.format("output-%s-%d.txt", funcName, random.nextInt(100));
+
+            byte[] bytes = input.getBytes("UTF-8");
+            inputStream = new ByteArrayInputStream(bytes);
+
+            meta = new ObjectMetadata();
+            meta.setContentLength(bytes.length);
+            meta.setContentType("text/html");
+
+            s3Client.putObject(BUCKET_NAME, objectKeyName, inputStream, meta);
+        } catch(AmazonServiceException e) {
+            e.printStackTrace();
+        } catch(SdkClientException e) {
+            e.printStackTrace();
+        }  catch (IOException e) {
             e.printStackTrace();
         }
     }

@@ -9,6 +9,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
+import com.zuhlke.lambda.blob.AwsS3Impl;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -16,7 +17,7 @@ import java.io.InputStream;
 import java.util.Map;
 
 public class S3Example {
-    private final String BUCKET_NAME = "aws-lambda-test-mancs";
+    private AwsS3Impl awsS3Impl = new AwsS3Impl();
 
     public String myHandler(Map<String, Object> input, Context context) {
         LambdaLogger logger = context.getLogger();
@@ -27,6 +28,13 @@ public class S3Example {
             output.append(key + ": " + input.get(key));
         }
 
+        try {
+            awsS3Impl.uploadTextFile(output.toString(), context.getFunctionName());
+            return "Success";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        /*
         try {
             AmazonS3 s3Client = AmazonS3ClientBuilder.standard().build();
             String objectKey = "output.txt";
@@ -57,7 +65,7 @@ public class S3Example {
             return "error";
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         return "error";
     }
